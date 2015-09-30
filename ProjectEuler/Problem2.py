@@ -14,4 +14,4 @@ while temp < 4000000:
   if temp % 2 == 0:
     total += temp
 
-print total
+print(total)
