@@ -16,14 +16,10 @@ import calendar
 totalSundays = 0
 
 for year in range (1900, 2001):
-  
+
   for month in range (1, 13):
-    
-    c = calendar.monthcalendar(year, month)
-    first_week = c[0]
 
     if (calendar.weekday(year, month, 1) == calendar.SUNDAY):
       totalSundays = totalSundays + 1
-      
-      
+
 print(totalSundays)
